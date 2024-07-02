@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins, Sans-serif';
+}
+.sidebar nav img{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.sidebar nav h3{ 
+    margin-left: 40px;
+}
+.sidebar ul li{
+    margin-top: 30px;
+    margin-left: 30px;
+    list-style: none;
+    opacity: 0.9;
+}
+.sidebar{
+    margin-left: 5%;
+    height: 100%;
+    
+
+}
+.sidebar ul li .span1{
+  margin-bottom: 0 ;
+}
+.sidebar ul :hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.holediv{
+    display: block;
+    margin-left: 10%;
+}
+.subdiv{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+.subdiv h2{
+    margin-left: -55px;
+}
+.maindiv1{
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+.maindiv{
+        display: flex;}
+
+.maindiv2{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    text-align: center;
+    line-height: 35px;
+}
+.maindiv1 p{
+    font-size: 10px;
+}
+.maindiv3 ul li{
+    list-style-type: none;
+}
+.maindiv3 ul{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    justify-content: space-evenly; 
+    font-size: 15px;  
+    font-weight: bold;
+    color: white; 
+}
+.maindiv3{
+    padding-top: 80px;
+    line-height: 2.5;
+    margin-left: 50px;
+}
+.maindiv3 h3{
+    margin-left: 30px;
+}
+.div5{
+    display: flex;
+    background-color: white;
+    height: 180px;
+    width: 230px;
+}
+.div6{
+    display: flex;
+    background-color: white;
+    height: 180px;
+    width: 230px;
+    
+
+}
+/* .div6 div{
+    margin-top: 20px; */
+
+.div7{
+    display: flex;
+    margin-right: 50px;
+    background-color: white;
+    height: 180px;
+    width: 230px;
+}
+.back2{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+.back1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJeIC-fde6UKUUbK1v1w-fC5TQsqBJG34aQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .maindiv2 button :hover{
+    cursor: pointer;
+    transform: scale(1.3);
+
+} */
+ /* .b1 :hover{
+    cursor: pointer;
+    transform: scale(1.3);
+ } */
+button {
+    cursor: pointer;
+}
